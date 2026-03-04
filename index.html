@@ -622,6 +622,10 @@
             font-size: 0.875rem;
         }
 
+        .desc-mobile {
+            display: none;
+        }
+
         /* Responsive */
         @media (max-width: 1024px) {
             .hero {
@@ -750,6 +754,14 @@
                 display: flex;
             }
 
+            .desc-full {
+                display: none;
+            }
+
+            .desc-mobile {
+                display: inline;
+            }
+
             .hero h1 {
                 font-size: 2.5rem;
             }
@@ -849,7 +861,8 @@
                 <span>the Eggverse</span>
             </h1>
             <p class="hero-description">
-                Enter a realm where digital artistry meets Bitcoin immortality. Ordinal Eggs isn't just a collection—it's the genesis of the Eggverse, featuring legendary Sub10k inscriptions that pioneered the fusion of premium digital art with the world's most secure blockchain. From 100 elite genesis eggs to 10,000 interactive Mother Cluckers, we're building the future of on-chain creativity.
+                <span class="desc-full">Enter a realm where digital artistry meets Bitcoin immortality. Ordinal Eggs isn't just a collection—it's the genesis of the Eggverse, featuring legendary Sub10k inscriptions that pioneered the fusion of premium digital art with the world's most secure blockchain. From 100 elite genesis eggs to 10,000 interactive Mother Cluckers, we're building the future of on-chain creativity.</span>
+                <span class="desc-mobile">The genesis of the Eggverse. Legendary Sub10k inscriptions. From 100 elite genesis eggs to 10,000 interactive Mother Cluckers—building the future of on-chain creativity.</span>
             </p>
             <div class="hero-buttons">
                 <a href="#collections" class="btn btn-primary">Explore Collections →</a>
